@@ -6,7 +6,6 @@ import pickle
 model_path = 'model_weights.pth' 
 
 model = torch.load(model_path)
-model.eval()
 
 feature_names = [
     'Diagnosis Age', 'Neoplasm Disease Stage American Joint Committee on Cancer Code',
