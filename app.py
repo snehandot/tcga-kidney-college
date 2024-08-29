@@ -3,7 +3,7 @@ import pandas as pd
 import torch
 import pickle
 
-model_path = 'model_weights.pth'  # Update with your model path
+model_path = 'model_weights.pth' 
 
 model = torch.load(model_path)
 model.eval()
